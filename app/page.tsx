@@ -1,5 +1,11 @@
 import Header from "./Header";
 import Body from "./Body";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Ng Say Peng | Online Resume: Software Developer",
+	description: "Built with Next.js 16 and TypeScript",
+};
 
 export default function Portfolio() {
 	return (
