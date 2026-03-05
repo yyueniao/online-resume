@@ -2,7 +2,8 @@
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import { ReactNode } from "react";
-import { fadeInUp } from "./utils";
+import { fadeInUp } from "../utils";
+import Name from "./Name";
 
 const BrandIcon = ({ path, title }: { path: string; title: string }) => (
 	<svg
@@ -33,14 +34,9 @@ export default function Header(): ReactNode {
 				viewport={fadeInUp.viewport}
 				transition={fadeInUp.transition}
 			>
-				<h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-4">
-					Ng Say Peng
-				</h1>
+				<Name />
 				<p className="text-xl text-slate-400 mb-6">
-					Fullstack Developer & Founder of{" "}
-					<span className="text-blue-400 underline decoration-2 underline-offset-4">
-						Miters
-					</span>
+					Fullstack Developer & Community Builder
 				</p>
 				<div className="flex gap-4">
 					<a
