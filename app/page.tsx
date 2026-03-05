@@ -1,5 +1,5 @@
 import Header from "./header/Header";
-import Body from "./Body";
+import Body from "./body/Body";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,6 +1,5 @@
 "use client";
 import { ReactNode } from "react";
-import Section from "./Section";
 import { motion } from "framer-motion";
 import {
 	Code2,
@@ -10,6 +9,7 @@ import {
 	ExternalLink,
 	Terminal,
 } from "lucide-react";
+import Section from "./Section";
 
 const containerVariants = {
 	initial: {},

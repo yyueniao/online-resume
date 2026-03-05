@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
-import { fadeInUp } from "./utils";
+import { fadeInUp } from "../utils";
 
 interface Props {
 	children: ReactNode;
