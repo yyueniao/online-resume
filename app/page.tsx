@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Code2, Users, GraduationCap, Award } from "lucide-react";
 import { fadeInUp } from "./utils";
