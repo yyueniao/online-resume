@@ -194,7 +194,7 @@ export default function Body(): ReactNode {
 							</p>
 							<p className="text-slate-400 text-sm mt-1">
 								Full-ride scholarship covering tuition, housing,
-								and stipends.
+								and spends.
 							</p>
 							<div className="mt-4 h-1 w-full bg-slate-800 rounded-full overflow-hidden">
 								<motion.div
