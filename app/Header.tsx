@@ -26,7 +26,13 @@ const ICONS = {
 export default function Header(): ReactNode {
 	return (
 		<header className="mb-24">
-			<motion.div {...fadeInUp}>
+			<motion.div
+				variants={fadeInUp}
+				initial="initial"
+				whileInView="whileInView"
+				viewport={fadeInUp.viewport}
+				transition={fadeInUp.transition}
+			>
 				<h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-4">
 					Ng Say Peng
 				</h1>

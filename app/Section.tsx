@@ -11,10 +11,11 @@ interface Props {
 export default function Section({ children, title, icon }: Props) {
 	return (
 		<motion.section
-			initial="initial"
-			whileInView="animate"
-			viewport={{ once: true }}
 			variants={fadeInUp}
+			initial="initial"
+			whileInView="whileInView"
+			viewport={fadeInUp.viewport}
+			transition={fadeInUp.transition}
 			className="mb-16"
 		>
 			<div className="flex items-center gap-2 mb-6 border-b border-gray-800 pb-2">
